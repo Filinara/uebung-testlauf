@@ -1,0 +1,371 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./bilder/wallpapherb.jpg");
+    background-size: contain;
+
+}
+
+
+header{
+    display:flex;
+    justify-content: space-around;
+    border: solid 5px rgba(115, 151, 115, 0.344);
+    background-color: rgba(157, 209, 104, 0.6);
+    align-items: center;
+    border-radius: 30px;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+}
+.minze{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+.minze img{
+    display: flex;
+    width: 420px;
+    height: 420px;
+    border-radius: 30px;
+}
+
+section{
+    display: flex;
+    border: solid 5px rgba(115, 151, 115, 0.344);
+    border-radius: 30px;
+    width: 420px;
+    height: 420px;
+    flex-flow: row wrap;
+    flex-direction: column;
+    background-color: rgba(157, 209, 104, 0.6);
+}
+.minzep p{
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+
+
+
+main{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+main img{
+    display: flex;
+    width: 420px;
+    height: 420px;
+    border-radius: 30px;
+}
+
+.oreg{
+    display: flex;
+    border: solid 5px rgba(115, 151, 115, 0.344);
+    border-radius: 30px;
+    width: 420px;
+    height: 420px;
+    flex-flow: row wrap;
+    flex-direction: column;
+    background-color: rgba(157, 209, 104, 0.6);
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: rgb(8, 84, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px; 
+
+}
+
+footer img{
+    display: flex;
+    width: 420px;
+    height: 420px;
+    border-radius: 30px;
+}
+
+.peter{
+    display: flex;
+    border: solid 5px rgba(115, 151, 115, 0.344);
+    border-radius: 30px;
+    width: 420px;
+    height: 420px;
+    flex-flow: row wrap;
+    flex-direction: column;
+    background-color: rgba(157, 209, 104, 0.6);
+}
+
+
+.minzentd{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+align-items: center;
+border-bottom: solid 3px rgba(0, 128, 0, 0.6) ;
+padding-bottom: 40px;
+}
+
+.minzentd img{
+    display: flex;
+    width: 520px;
+    height: 520px;
+    border-radius: 30px;
+    justify-content: center;
+
+}
+
+.minzentd p{
+display: flex;
+align-items: center;
+width: 300px;
+border-radius: 30px;
+height: 250px;
+background-color:  rgba(0, 128, 0, 0.6);
+padding-left: 10px;
+}
+
+.minzentd h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.6);
+    align-items: stretch;
+    width: 30%;
+    margin: 0%;
+    border-radius: 30px;
+
+}
+
+
+.basilentd{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+align-items: center;
+border-bottom: solid 3px rgba(0, 128, 0, 0.6) ;
+padding-bottom: 40px;
+
+}
+
+.basilentd img{
+    display: flex;
+    width: 520px;
+    height: 520px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.basilentd p{
+display: flex;
+align-items: center;
+width: 300px;
+border-radius: 30px;
+height: 250px;
+background-color:  rgba(0, 128, 0, 0.6);
+padding-left: 10px;
+}
+
+.basilentd h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.6);
+    align-items: stretch;
+    width: 30%;
+    margin: 0%;
+    border-radius: 30px;
+    
+}
+
+
+.oregentd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    border-bottom: solid 3px rgba(0, 128, 0, 0.6) ;
+    padding-bottom: 40px;
+}
+
+.oregentd p{
+display: flex;
+align-items: center;
+width: 300px;
+border-radius: 30px;
+height: 200px;
+background-color: rgba(0, 128, 0, 0.6);
+padding-left: 10px;
+}
+
+.oregentd img{
+    display: flex;
+    width: 420px;
+    height: 320px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.oregentd h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 128, 0, 0.6);
+    align-items: stretch;
+    width: 30%;
+    margin: 0%;
+    border-radius: 30px; 
+}
+
+.minzh{
+    display: flex;
+    font-size: x-large;
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    background-color: rgba(0, 128, 0, 0.6);
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+
+.oregh{
+    display: flex;
+    font-size: x-large;
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    background-color: rgba(0, 128, 0, 0.6);
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+  
+}
+
+
+
+
+
+.basilh{
+    display: flex;
+    font-size: x-large;
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    background-color: rgba(0, 128, 0, 0.6);
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.basli{
+    display: flex;
+    justify-self:center;
+    background-color: rgba(0, 128, 0, 0.6);
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+.basuli li{
+    display:inline;
+    justify-content:center;
+    padding: 15px;
+    margin:20px;
+}
+
+
+.limin{
+    display: flex;
+    justify-self:center;
+    background-color: rgba(0, 128, 0, 0.6);
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-bottom: 30px;
+}
+
+.limin li{
+    display:inline;
+    justify-content:center;
+    padding: 15px;
+    margin:20px;
+    }
+
+    .navhaupt {
+        position: fixed;
+        top: 213px;
+        left: 20px;
+        background-color: rgba(0, 128, 0, 0.6) ;
+        padding: 9px ;
+        border-radius: 30px;
+        border: solid 2px rgb(8, 84, 8);
+        width: 165px;
+
+        }
+    
+    .navhaupt ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navhaupt li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .navhaupt a {
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    .oren{
+        display: flex;
+        justify-self:center;
+        background-color: rgba(0, 128, 0, 0.6);
+        border: solid 2px rgb(8, 84, 8);
+        border-radius: 300px;
+        display: inline-block;
+        margin-left: 160px;
+        margin-bottom: 30px;
+ 
+    }
+
+    .ori li{
+        display:inline;
+        justify-content:center;
+        padding: 15px;
+        margin:20px;
+
+    }

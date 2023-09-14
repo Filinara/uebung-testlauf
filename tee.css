@@ -1,0 +1,81 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./bilder/wallpapherb.jpg");
+    background-size: cover;
+}
+
+header{
+display:flex;
+justify-content: space-around;
+border: solid 5px rgba(115, 151, 115, 0.344);
+background-color: rgba(157, 209, 104, 0.6);
+align-items: center;
+border-radius: 30px;
+}
+
+header img{
+width: 150px;
+height: 150px;
+ border-radius: 60px;
+}
+
+main{
+   display: flex;
+   justify-content: space-around; 
+   padding: 30px;
+   flex-direction: row;
+   
+}
+
+
+main img{
+    display: flex;
+    width: 420px;
+    height: 315px;
+    border: solid 2px green;
+    border-radius: 30px;
+}
+main p{
+    width: 200px;
+    height: 200px;
+    border: solid 2px  rgb(8, 84, 8);
+    background-color: rgb(233, 204, 72) ;
+    border-radius: 500px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+
+}
+.h2tee h2{
+    display: flex;
+    font-size: x-large;
+    border: solid 2px rgb(8, 84, 8);
+    border-radius: 300px;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: rgb(233, 204, 72);
+}
+
+
+main iframe{
+    border: solid 2px green;
+    display: flex;
+    border-radius: 30px;
+}
+
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: rgb(8, 84, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}

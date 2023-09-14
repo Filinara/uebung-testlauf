@@ -1,0 +1,118 @@
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    }
+    a:hover{
+        color: white;
+    }
+    
+    a{
+        color: rgb(8, 84, 8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body{
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./bilder/wallpapherb.jpg");
+        background-size: contain;
+    }
+    .überpesto{
+        display:flex;
+        justify-content: space-around;
+        border: solid 5px rgba(115, 151, 115, 0.344);
+        background-color: rgba(157, 209, 104, 0.6);
+        align-items: center;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 80px;
+    }
+    
+    .überpesto img{
+        width: 150px;
+        height: 150px;
+        border-radius: 60px;
+    }
+
+
+    main{
+        display: flex;
+        justify-content: space-around;
+        padding: 100px;
+       
+    }
+
+
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    header img{
+        display: flex;
+        width: 700px;
+        height: 500px;
+        border-radius: 300px;
+        border: solid 5px  rgba(115, 151, 115, 0.344);
+    }
+
+    
+    main ul li{
+    background-color: rgba(0, 128, 0, 0.6);
+    border: solid 2px rgb(8, 84, 8);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 20px;
+    }
+    main h2{
+    
+        align-items: center;
+        display:flex;
+        border: solid 5px rgba(115, 151, 115, 0.344);
+        background-color: rgba(157, 209, 104, 0.6);
+        border-radius: 30px;
+        width: 800px;
+        height: 200px;
+    }
+
+    #ppes p{
+        display: flex;
+        display: block;
+        background-color: rgba(0, 128, 0, 0.6);
+        border: solid 2px rgb(8, 84, 8);
+        padding: 20px;
+
+    }
+
+
+    #ppes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        justify-content: center;
+        margin-left: 540px;
+        border: solid 5px rgba(115, 151, 115, 0.344);
+        background-color: rgba(157, 209, 104, 0.6);
+        border-radius: 30px;
+    }
+    .erstp{
+        display: flex;
+        flex-flow:column wrap;
+        justify-content:space-between;
+        background-color: rgba(0, 128, 0, 0.6);
+        border: solid 2px rgb(8, 84, 8); 
+        border-radius: 30px; 
+        }
+    .zweip{
+        display: flex;
+        display: block;
+        background-color: rgba(0, 128, 0, 0.6);
+        border: solid 2px rgb(8, 84, 8);
+        border-radius: 30px;
+        
+    }
+
+main h2{
+    display: flex;
+    justify-content: center;
+}

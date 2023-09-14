@@ -1,0 +1,47 @@
+.bpfleg{
+display:flex;
+justify-content: space-around;
+border: solid 5px rgba(115, 151, 115, 0.344);
+background-color: rgba(157, 209, 104, 0.6);
+align-items: center;
+border-radius: 30px;
+padding: 10px;
+    margin: 80px;
+}
+
+ .bpfleg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+ }
+
+ body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./bilder/wallpapherb.jpg");
+    background-size: cover;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: rgb(8, 84, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    iframe{
+        border: solid 2px green;
+        display: flex;
+        border-radius: 30px;
+    }

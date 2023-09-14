@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./bilder/wallpapherb.jpg");
+    background-size: contain;
+}
+
+
+.imgbeih1{
+ display:flex;
+justify-content: space-around;
+border: solid 5px rgba(115, 151, 115, 0.344);
+background-color: rgba(157, 209, 104, 0.6);
+align-items: center;
+border-radius: 30px;
+}
+
+.imgbeih1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+}
+
+main p{
+    display: flex;
+    border: solid 2px rgba(115, 151, 115, 0.344);
+    width: 300px;
+    height: 250px;
+    margin:auto;
+    padding: 10px;
+    background-color:  rgba(157, 209, 104, 0.6);
+    border-radius: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: rgb(8, 84, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.menav {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    background-color: rgba(0, 128, 0, 0.6) ;
+    padding: 10px ;
+    border-radius: 30px;
+    border: solid 2px rgb(8, 84, 8);
+}
+
+.menav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mennav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menav a {
+    text-decoration: none;
+    color: white;
+}
